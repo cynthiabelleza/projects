@@ -1,3 +1,3 @@
 # projects
 
-List of project in each knowledge area.
+List of projects in each knowledge area.
