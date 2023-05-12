@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Admin Dashboard</title>
+    <script src="https://kit.fontawesome.com/2e1e7f3edb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar (start) -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">Admin</a>
+
+            <!-- slide side menu (start) -->            
+            <div class="btn-slide navbar-toggle me-auto">
+                <i class="fa fa-angles-right open d-none"></i>                
+                <i class="fa fa-xmark close"></i>
+            </div>
+            <!-- slide side menu (end) -->
+
+            <!-- collapse button (start) -->
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- collapse button (end) -->
+
+            <div class="collapse navbar-collapse my-3 my-lg-0" id="navbarContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#settings" class="nav-link">Settings</a>
+                    </li>
+                </ul>
+                <form action="" class="d-flex">
+                    <input type="search" class="form-control mx-lg-2" placeholder="Search...">
+                    <button type="submit" class="btn btn-outline-success">Search</button>
+                </form>
+            </div>    
+        </div>
+    </nav>
+    <!-- Navbar (end) -->
+
+    <!-- Side Menu (start) -->
+    <div class="side-nav">
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <a class="nav-link disabled">Side Menu</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link"><i class="fa fa-dashboard"></i>Dashboard</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link"><i class="fa fa-area-chart"></i>Charts</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link"><i class="fa fa-table"></i>Tables</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link"><i class="fa fa-wrench"></i>Components</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link"><i class="fa fa-file"></i>Pages</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link"><i class="fa fa-link"></i>Links</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link"><i class="fa fa-calendar-check"></i>Calendar</a>
+            </li>
+        </ul>
+    </div>
+    <!-- Side Menu (end) -->
+
+    <!-- Main Content (start) -->
+    <div class="main-content">
+        <div class="container-fluid">
+            <!-- breadcrumbs (start) -->
+            <div class="col-12 pt-4">
+                <div class="mt-5 py-3 px-5 bg-white shadow-sm rounded-3">
+                    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                        <ol class="breadcrumb mb-0">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item active"><a href="#">Statistics</a></li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+            <!-- breadcrumbs (end) -->
+
+            <!-- Cards (start) -->
+            <div class="row">
+                <div class="col-lg-3 py-3">
+                    <div class="bg-white shadow-sm rounded-3 d-flex justify-content-between p-4">
+                        <div>
+                            <p class="small">Customers</p>
+                            <p class="fs-3 fw-bold">25,000</p>
+                            <p class="mb-0"><span class="text-danger"><i class="fas fa-arrow-down"></i> 2.21%</span> since last month</p>
+                        </div>
+                        <i class="fas fa-user-check fa-2x stats"></i>
+                    </div>
+                </div>
+                <div class="col-lg-3 py-3">
+                    <div class="bg-white shadow-sm rounded-3 d-flex justify-content-between p-4">
+                        <div>
+                            <p class="small">Orders</p>
+                            <p class="fs-3 fw-bold">25,987</p>
+                            <p class="mb-0"><span class="text-success"><i class="fas fa-arrow-up"></i> 4.44%</span> since last month</p>
+                        </div>
+                        <i class="fas fa-cart-plus fa-2x stats"></i>
+                    </div>
+                </div>
+                <div class="col-lg-3 py-3">
+                    <div class="bg-white shadow-sm rounded-3 d-flex justify-content-between p-4">
+                        <div>
+                            <p class="small">Revenue</p>
+                            <p class="fs-3 fw-bold">2,556$</p>
+                            <p class="mb-0"><span class="text-success"><i class="fas fa-arrow-up"></i> 3.59%</span> since last month</p>
+                        </div>
+                        <i class="fas fa-dollar-sign fa-2x stats"></i>
+                    </div>
+                </div>
+                <div class="col-lg-3 py-3">
+                    <div class="bg-white shadow-sm rounded-3 d-flex justify-content-between p-4">
+                        <div>
+                            <p class="small">Growth</p>
+                            <p class="fs-3 fw-bold">3.26%</p>
+                            <p class="mb-0"><span class="text-success"><i class="fas fa-arrow-up"></i> 2.21%</span> since last month</p>
+                        </div>
+                        <i class="fas fa-chart-bar fa-2x stats"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- Cards (end) -->
+
+            <!-- Dashboard (start) -->
+            <div class="row">
+                <div class="col-lg-7 py-3">
+                    <div class="bg-white shadow-sm rounded-3 p-4">
+                      <canvas id="myChart1" height="208"></canvas>
+                    </div>
+                </div>
+                <div class="col-lg-5 py-3">
+                    <div class="bg-white shadow-sm rounded-3 p-4">
+                      <canvas id="myChart2" height=""></canvas>
+                    </div>
+                </div>
+                <div class="col-12 py-3">
+                    <div class="bg-white shadow-sm rounded-3 p-4">
+                      <canvas id="myChart3" height="100"></canvas>
+                    </div>
+                </div>
+            </div>
+            <!-- Dashboard (end) -->
+
+        </div>
+    </div>
+    <!-- Main Content (end) -->
+
+    <script src="js/bootstrap.bundle.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.2.0/chart.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.3.0/chart.min.js"></script>      -->
+    <script src="js/script.js"></script>
+</body>
+</html>
