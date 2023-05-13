@@ -9,7 +9,7 @@ List of projects in each knowledge area.
   2. Business Page - Template with [AOS (Animate on scroll) library](https://michalsnik.github.io/aos/)
   3. Admin Dashboard - Template with [Chart.js library](https://www.chartjs.org/)
   4. Blog - Template
-  5. ...
+  5. Professional Portfolio - Template with [Typewriter.js](https://github.com/tameemsafi/typewriterjs)
   6. ...
   
 ## Figma <img src="https://w7.pngwing.com/pngs/431/965/png-transparent-figma-designer-computer-icons-material-design-design-rectangle-poster-logo.png" height="40" align="left"/>  
