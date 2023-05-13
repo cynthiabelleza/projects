@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Multipage Template</title>
+    <script src="https://kit.fontawesome.com/2e1e7f3edb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar (start) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Blog</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarToggle">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggle">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                    <li class="nav-item">
+                       <a href="index.html" class="nav-link active">Home</a> 
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Articles</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="full-width.html" class="dropdown-item">Full Width</a>
+                            </li>
+                            <li>
+                                <a href="right-sidebar.html" class="dropdown-item">Right Sidebar</a>
+                            </li>
+                        </ul> 
+                     </li>
+                     <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a> 
+                     </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar (end) -->
+
+    <!-- Header Section (start) -->
+    <header>
+        <div class="container min-vh-100 d-flex align-items-center text-center">
+            <h1 class="fw-bolder display-1 text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, error.</h1>
+        </div>
+    </header>
+    <!-- Header Section (end) -->
+
+    <!-- Main Content (start) -->
+    <section class="my-4">
+        <div class="container">
+            <div class="row">
+                <!-- blog content (start) -->
+                <div class="col-lg-9">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card shadow">
+                                <div class="overflow-hidden">
+                                    <!-- carousel (start) -->
+                                    <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="carouselSlide">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="images/img1.jpg" alt="" class="w-100 d-block">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="images/img2.jpg" alt="" class="w-100 d-block">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="images/img3.jpg" alt="" class="w-100 d-block">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" data-bs-target="#carouselSlide" data-bs-slide="prev">
+                                           <span class="carousel-control-prev-icon"></span> 
+                                        </button>
+                                        <button class="carousel-control-next" data-bs-target="#carouselSlide" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon"></span> 
+                                         </button>
+                                    </div>                   
+                                    <!-- carousel (end) -->                 
+                                </div>                                
+                                <div class="card-body">
+                                    <h5 class="card-title">Card Title</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis accusamus voluptatum placeat quisquam officia eveniet!</p>
+                                    <a href="#" class="btn btn-primary">See full article</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 py-3">
+                            <div class="card shadow">
+                                <div class="overflow-hidden">
+                                    <img src="images/img2.jpg" alt="" class="card-img-top">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Card Title</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis accusamus voluptatum placeat quisquam officia eveniet!</p>
+                                    <a href="#" class="btn btn-primary">See full article</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 py-3">
+                            <div class="card shadow">
+                                <div class="overflow-hidden">
+                                    <img src="images/img3.jpg" alt="" class="card-img-top">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Card Title</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis accusamus voluptatum placeat quisquam officia eveniet!</p>
+                                    <a href="#" class="btn btn-primary">See full article</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- blockquote (start) -->
+                        <div class="col-12 py-3">
+                            <div class="shadow bg-white py-5 px-2 rounded-3">
+                                <figure class="text-center">
+                                    <blockquote class="blockquote">
+                                        <p class="fs-2 pb-3">A well-know quote, conteined in a blockquote element.</p>    
+                                    </blockquote>
+                                    <figcaption class="blockquote-footer">
+                                        Someone famous in <cite>Source Title</cite>
+                                    </figcaption>
+                                </figure>
+                            </div>    
+                        </div>
+                        <!-- blockquote (end) -->
+
+                        <div class="col-md-6 py-3">
+                            <div class="card shadow">
+                                <div class="overflow-hidden">
+                                    <img src="images/img4.jpg" alt="" class="card-img-top">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Card Title</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis accusamus voluptatum placeat quisquam officia eveniet!</p>
+                                    <a href="#" class="btn btn-primary">See full article</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 py-3">
+                            <div class="card shadow">
+                                <div class="overflow-hidden">
+                                    <img src="images/img5.jpg" alt="" class="card-img-top">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Card Title</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis accusamus voluptatum placeat quisquam officia eveniet!</p>
+                                    <a href="#" class="btn btn-primary">See full article</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- pagination (start) -->
+                        <nav class="my-5">
+                            <ul class="pagination justify-content-center">
+                                <li class="page-item disabled">
+                                    <a href="#" class="page-link">Previous</a>
+                                </li>   
+                                <li class="page-item active">
+                                    <a href="#" class="page-link">1</a>
+                                </li>
+                                <li class="page-item">
+                                    <a href="#" class="page-link">2</a>
+                                </li>
+                                <li class="page-item">
+                                    <a href="#" class="page-link">3</a>
+                                </li>
+                                <li class="page-item">
+                                    <a href="#" class="page-link">Next</a>
+                                </li>   
+                            </ul>
+                        </nav>
+                        <!-- pagination (end) -->
+
+                    </div>
+                </div>    
+                <!-- blog content (end) -->
+
+                <!-- right sidebar (start) -->
+                <div class="col-lg-3">
+                    
+                    <!-- author widget (start) -->
+                    <div class="author-widget bg-white shadow text-center my-3 rounded-3 p-3">
+                        <img src="images/author.jpg" alt="" class="rounded-circle">
+                        <p class="fs-2 fw-bold pt-3">John Plush</p>   
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur facere consequatur vero odio quae autem aliquam velit vel tempore esse.</p>
+                    </div>
+                    <!-- author widget (end) -->
+
+                    <!-- latest articles (start) -->
+                    <div class="bg-white shadow my-3 rounded-3">
+                        <div class="bg-secondary text-center p-3">
+                            <h6 class="text-white fs-4 mb-0"> Latest Articles</h6>
+                        </div>
+                        <ul class="list-group list-group-flush p-3">
+                            <li class="list-group-item">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, distinctio.</li>
+                            <li class="list-group-item">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, distinctio.</li>
+                            <li class="list-group-item">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, distinctio.</li>
+                            <li class="list-group-item">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, distinctio.</li>
+                            <li class="list-group-item">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, distinctio.</li>                            
+                        </ul>
+                    </div>
+                    <!-- latest articles (end) -->
+
+                    <!-- categories (start) -->
+                    <div class="bg-white shadow my-3 rounded-3">
+                        <div class="bg-secondary text-center p-3">
+                            <h6 class="text-white fs-4 mb-0"> Categories</h6>
+                        </div>
+                        <ol class="list-group list-group-numbered">
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Category 1</div>
+                                    Subheading of category 1   
+                                </div>
+                                <span class="badge bg-primary rounded-pill">15</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Category 2</div>
+                                    Subheading of category 2   
+                                </div>
+                                <span class="badge bg-primary rounded-pill">11</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Category 3</div>
+                                    Subheading of category 3   
+                                </div>
+                                <span class="badge bg-primary rounded-pill">9</span>
+                            </li>
+                        </ol>
+                    </div>
+                    <!-- categories (end) -->
+
+                </div>    
+                <!-- right sidebar (end) -->
+
+            </div>
+        </div>
+    </section>    
+    <!-- Main Content (end) -->
+
+   <footer class="bg-dark">
+    <p class="mb-0 text-white text-center py-3">
+        © All Rights Reserved 
+    </p> 
+   </footer> 
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

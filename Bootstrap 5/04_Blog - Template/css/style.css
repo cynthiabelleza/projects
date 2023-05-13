@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #fafbfe;
+}
+
+header {
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.5)) ,url(../images/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card img {
+    filter: grayscale(70%);
+    transition: all .4s;
+}
+
+.card:hover img {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+.author-widget img {
+    height: 150px;
+    width: 150px;
+}
+
+header.right-sidebar,
+header.full-width,
+header.contact {
+    padding-top: 180px;
+    padding-bottom: 170px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header.right-sidebar {
+    background: url(../images/single-bg2.jpg);    
+}
+
+header.full-width {
+    background: url(../images/single-bg.jpg);    
+}
+
+header.contact {
+    background: url(../images/contact-bg.jpg);
+}
