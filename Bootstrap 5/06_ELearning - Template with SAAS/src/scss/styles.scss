@@ -1,0 +1,371 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import "bootstrap/scss/bootstrap";
+
+// Font sizes
+$body-font-size: 15px;
+$title-font-size: 50px;
+
+// Text colors
+$body-text-color: #918dc7;
+$title-text-color: #353382;
+
+// Colors
+$blue: #928bf9 ;
+$white: #fff;
+
+// Gradient colors
+$yellow-bg: linear-gradient(89.49deg, #FFA665 0.44%, #FFCB68 99.62%);
+$purple-bg: linear-gradient(129.13deg, #E67AC8 7.95%, #AA82E9 91.29%);
+$blue-bg: linear-gradient(129.13deg, #00E8F7 7.95%, #329DFF 91.29%);
+$green-bg: linear-gradient(129.13deg, #F6FF8A 7.95%, #00FF30 91.29%);
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: $body-font-size;
+    color: $body-text-color;
+}
+
+#my-scrollbar {
+    width: 100%;
+    height: 100vh;       
+}
+
+// Custom classes
+.bg-blue {
+    background-color: $blue;
+}
+
+.title {
+    color: $title-text-color;
+    font-size: $title-font-size;
+    font-weight: 800;
+    line-height: 72px;
+}
+
+p {
+    line-height: 38px;
+}
+
+.btn {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 43px;
+    border-radius: 35px;
+    transition: all 0.4s ease;
+
+    &-yellow {
+        background: $yellow-bg;
+        color: $white;
+
+        &:hover {
+            box-shadow: 0px 4px 17px rgba(255, 198, 96, 0.61);
+            color: $white;
+        }
+    }
+
+    &-outline {
+        border: 2px solid $title-text-color;
+        color: $title-text-color;
+        padding: 14px 42px;
+
+        &:hover {
+            background-color: $title-text-color;
+            color: $white;
+        }
+    }
+}
+
+// Navbar
+
+li.nav-item {
+    margin-right: 1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 18px;
+    font-weight: 600;
+    color: $white;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 30px;
+
+    &:hover,
+    &.active {
+        background-color: #a9a4ff;
+    }
+}
+
+
+// Features Section
+.features {
+    margin-top: 70px;
+}
+
+.feature {
+    h3 {
+        color: $title-text-color;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 42px;
+        padding-bottom: 20px;
+    }
+
+    &-icon {
+        margin-bottom: 25px;
+
+        i {
+            font-size: 37px;
+            color: $white;
+            position: relative;
+
+            &::after {
+                content: '';
+                position: absolute;
+                width: 85px;
+                height: 85px;
+                border-radius: 25px;
+                left: 0;
+                bottom: 0;
+            }
+            
+            &::before {
+                position: absolute;
+                z-index: 99;
+                left: 23px;
+                bottom: 24px;
+            }
+        }
+    }
+}
+
+.feature:nth-child(1) i::after {
+    background: $purple-bg;
+}
+
+.feature:nth-child(2) i::after {
+    background: $blue-bg;
+}
+
+.feature:nth-child(3) i::after {
+    background: $green-bg;
+}
+
+// Courses Section
+
+.courses h4 {
+    color: $title-text-color;
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+
+// Stats
+
+.stats {
+    padding: 94px 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 37px;
+}
+
+.stat {
+    text-align: center;
+    color: $white;   
+    
+    &-num {
+        font-weight: 600;
+        font-size: 64px;
+        margin-bottom: 30px;
+    }
+
+    &-title {
+        font-weight: 600;
+        font-size: 24px;
+    }
+}
+
+
+// Pricing Section
+
+.card {
+    background: #FDFDFD;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    padding: 50px 0; 
+
+    &-body {
+        padding: 0 15px;
+
+        p {
+            display: inline-block;
+            padding: 7px 20px;
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #FFF;
+            letter-spacing: 1px;
+            border-radius: 40px;
+
+            &.starter {
+                background: $yellow-bg;
+            }
+
+            &.pro {
+                background: $purple-bg;
+            }
+
+            &.single {
+                background: $blue-bg;
+            }
+
+            &.family {
+                background: $green-bg;
+            }
+        }
+
+        h5 {
+            color: $title-text-color;
+            font-weight: 500;
+            font-size: 28px;
+            margin: 14px 0 35px;
+        }
+    }
+    
+    li.list-group-item {
+        color: $body-text-color;
+        background-color: transparent;
+    }
+}
+
+// Newsletter Section
+
+.newsletter {
+    border-radius: 30px;
+
+    &-box {
+        padding: 40px 20px;
+        text-align: center;
+
+        h2 {
+            color: $white;
+            font-weight: 600;
+            font-size: 35px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            padding: 15px 60px;
+        }
+    }
+}
+
+
+// Footer
+
+footer {
+    background: url(../images/footer-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 380px;
+    color: $white;
+
+    ul.footer-menu {
+        list-style: none;
+        padding-left: 0;
+        padding-top: 15px;
+
+        li {
+            padding: 5px 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: $white;
+            font-size: 13px;
+            padding-top: 5px;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .credit p {
+        text-align: center;
+        margin-bottom: 0;
+        padding: 60px 10px 30px;
+
+        a {
+            color: $white;
+
+            &:hover {
+                color: $title-text-color;
+            }
+        }
+    }
+}
+
+// Responsiveness
+
+@media only screen and (max-width: 992px) {
+    .feature:not(:last-child) {
+        margin-bottom: 50px;
+    }
+
+    footer {
+        background-position: right;
+        margin-top: -126px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    body {
+        font-size: 13px;
+    }
+
+    p {
+        line-height: 27px;
+    }
+
+    .title {
+        font-size: 33px;
+        line-height: 47px;
+    }
+
+    .feature h3 {
+        font-size: 24px;
+        line-height: 35px;
+        padding-bottom: 10px;
+    }
+
+    .stats {
+        flex-direction: column;
+        padding: 73px 97px;
+    }
+
+    .stat:not(:last-child) {
+        padding-bottom: 30px;
+    }
+
+    .stat {
+
+
+        &-num {
+            font-size: 42px;
+            margin-bottom: 14px;
+        }
+
+        &-title {
+            font-size: 18px;
+        }
+    }
+
+    footer {
+        padding-top: 580px;
+        margin-top: -330px;
+    }
+}
