@@ -10,7 +10,7 @@ List of projects in each knowledge area.
   3. Admin Dashboard - Template with [Chart.js library](https://www.chartjs.org/)
   4. Blog - Template
   5. Professional Portfolio - Template with [typewriter.js](https://github.com/tameemsafi/typewriterjs), [isotope.js](https://isotope.metafizzy.co/), [imagesLoaded.js](https://imagesloaded.desandro.com/), and [tiny-slider.js](https://github.com/ganlanyuan/tiny-slider)
-  6. ...
+  6. E-Learning Site - Template with [npm](https://www.npmjs.com/), [Sass](https://sass-lang.com/), [Parcel](https://en.parceljs.org/), and [smooth-scrollbar.js](https://idiotwu.github.io/smooth-scrollbar/)
   
 ## Figma <img src="https://w7.pngwing.com/pngs/431/965/png-transparent-figma-designer-computer-icons-material-design-design-rectangle-poster-logo.png" height="40" align="left"/>  
   1. ...
