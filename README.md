@@ -15,7 +15,7 @@ List of projects in each knowledge area.
 ## Figma <img src="https://w7.pngwing.com/pngs/54/524/png-transparent-figma-app-logo-tech-companies-thumbnail.png" height="40" align="left"/>  
 [Course](https://www.udemy.com/course/cafe-com-figma/)
   1. Cinemark App - Splash Screen and Feed
-  2. ...
+  2. VeganNature - E-commerce App
 
 ## React.JS <img src="https://e7.pngegg.com/pngimages/452/495/png-clipart-react-javascript-angularjs-ionic-github-text-logo-thumbnail.png" height="40" align="left"/>  
   1. ...
