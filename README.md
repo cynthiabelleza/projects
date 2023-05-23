@@ -12,8 +12,8 @@ List of projects in each knowledge area.
   5. Professional Portfolio - Template with [typewriter.js](https://github.com/tameemsafi/typewriterjs), [isotope.js](https://isotope.metafizzy.co/), [imagesLoaded.js](https://imagesloaded.desandro.com/), and [tiny-slider.js](https://github.com/ganlanyuan/tiny-slider)
   6. E-Learning Site - Template with [npm](https://www.npmjs.com/), [Sass](https://sass-lang.com/), [Parcel](https://en.parceljs.org/), and [smooth-scrollbar.js](https://idiotwu.github.io/smooth-scrollbar/)
   
-## Figma <img src="https://w7.pngwing.com/pngs/431/965/png-transparnt-figma-designer-computer-icons-material-design-design-rectangle-poster-logo.png" height="40" align="left"/>  
-[Course]([https://www.udemy.com/course/complete-guide-to-bootstrap/](https://www.udemy.com/course/cafe-com-figma/))
+## Figma <img src="https://w7.pngwing.com/pngs/54/524/png-transparent-figma-app-logo-tech-companies-thumbnail.png" height="40" align="left"/>  
+[Course](https://www.udemy.com/course/cafe-com-figma/)
   1. Cinemark App - Splash Screen and Feed
   2. ...
 
