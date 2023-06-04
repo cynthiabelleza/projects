@@ -18,10 +18,12 @@ List of projects in each knowledge area.
   2. VeganNature - E-commerce App
 
 ## React.JS <img src="https://e7.pngegg.com/pngimages/452/495/png-clipart-react-javascript-angularjs-ionic-github-text-logo-thumbnail.png" height="40" align="left"/>  
+[Course](https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/12386054?start=120#overview)
   1. Notes Dashboard - JSX and event handling
   2. 
 
-## JavaScript <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" height="40" align="left"/>  
+## JavaScript <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" height="40" align="left"/> 
+[Course](https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/12386054?start=120#overview)
   1. Authentication - EJS, Express, Passport, MongoDB and Mongoose
   2. RESTful API - Express, MongoDB and Mongoose
   3. Blog - EJS, Express, MongoDB and Mongoose
