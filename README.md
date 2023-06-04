@@ -24,4 +24,5 @@ List of projects in each knowledge area.
 ## JavaScript <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" height="40" align="left"/>  
   1. Authentication - EJS, Express, Passport, MongoDB and Mongoose
   2. RESTful API - Express, MongoDB and Mongoose
+  3. Blog - EJS, Express, MongoDB and Mongoose
 
