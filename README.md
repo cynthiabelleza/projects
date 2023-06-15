@@ -17,14 +17,21 @@ List of projects in each knowledge area.
   1. Cinemark App - Splash Screen and Feed
   2. VeganNature - E-commerce App
 
-## React.JS <img src="https://e7.pngegg.com/pngimages/452/495/png-clipart-react-javascript-angularjs-ionic-github-text-logo-thumbnail.png" height="40" align="left"/>  
-[Course](https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/12386054?start=120#overview)
-  1. Notes Dashboard - JSX and event handling
-  2. 
-
 ## JavaScript <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" height="40" align="left"/> 
 [Course](https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/12386054?start=120#overview)
   1. Authentication - EJS, Express, Passport, MongoDB and Mongoose
   2. RESTful API - Express, MongoDB and Mongoose
   3. Blog - EJS, Express, MongoDB and Mongoose
+
+## React.JS <img src="https://e7.pngegg.com/pngimages/452/495/png-clipart-react-javascript-angularjs-ionic-github-text-logo-thumbnail.png" height="40" align="left"/>  
+[Course](https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/12386054?start=120#overview)
+  1. Notes Dashboard - JSX and event handling
+
+## Typescript <img src="https://w7.pngwing.com/pngs/915/519/png-transparent-typescript-hd-logo-thumbnail.png" height="40" align="left"/> 
+[Course](https://www.udemy.com/course/typescript-completo/)
+  1. To-do list
+  
+  
+
+
 
